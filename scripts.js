@@ -6,8 +6,8 @@
 import { getPokemonList, getPokemon } from "./api.js";
 import { pickIds, shuffle, capitalize } from "./utils.js";
 
-const TOTAL_ROUNDS = 10;
-const MAX_ID = 151; // the original 151 Pokémon
+const TOTAL_ROUNDS = 50;
+const MAX_ID = 1025; // the original 151 Pokémon
 
 const startButton = document.getElementById("start-button");
 const nextButton = document.getElementById("next-button");
